@@ -29,10 +29,9 @@
     export class AppModule { }
     ```
    ```
-3. 新建一个module统一管理material的module引入（使用了[nx管理项目](https://nrwl.io/nx)）
-
+3. 新建一个module统一管理material的module引入
    ```
-   ng g module ebiz-material -app=ebiz-ui
+   ng g module ebiz-material
    ```
 
 3. 在app的根module中引入ebiz-material.module.ts
