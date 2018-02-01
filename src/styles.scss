@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* @import '~@angular/material/prebuilt-themes/deeppurple-amber.css'; */
+
+/*引入自定义样式*/
+@import './theme';
+
+/*引入material-icon*/
+@import '~material-design-icons/iconfont/material-icons.css';
+
+/*引入自定义icon*/
+@import 'assets/iconfont/iconfont.css';
